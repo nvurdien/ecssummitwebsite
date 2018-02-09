@@ -79,7 +79,7 @@
 	font-size: 1.4em;
 	background: none;
 	cursor: pointer;
-	padding: 10px 25px;
+	padding: 2px 25px;
 	display: inline-block;
 	margin: 15px 30px;
 	text-transform: uppercase;
@@ -91,7 +91,7 @@
     padding-right: 1.5em;
 */
 	letter-spacing: 1px;
-	font-weight: 150;
+	font-weight: 700px;
 	outline: none;
 	position: relative;
 	-webkit-transition: all 0.3s;
@@ -114,7 +114,7 @@
 /*	font-family: 'icomoon';*/
 	speak: none;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: inherit;
 	font-variant: normal;
 	text-transform: none;
 /*	line-height: 1;*/
@@ -126,15 +126,15 @@
 /* Button 1 */
 .btn-1 {
 	border: 2px solid #fff;
-    border-radius: 20px;
-	color: #005DAA;
+    border-radius: 10px;
+	
 }
 
 /* Button 1a */
 .btn-1a:hover{
-	color: #fff;
-	background: #005DAA;
-    border: 2px solid #01549a;
+	color: #005DAA !important;
+	background: #fff;
+    border: 2px solid #fff;
     text-decoration: none;
 }
 
