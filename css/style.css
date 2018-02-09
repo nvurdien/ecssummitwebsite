@@ -5,6 +5,10 @@
     font-size: 13px;
 }
 
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #023c6c;
+}
+
 .uk-navbar-container .uk-navbar-nav>li>a {
     position: relative;
 }
@@ -52,18 +56,18 @@
 
 .uk-navbar-container .uk-navbar-nav>li>a {
     position: relative;
-    color:rgba(0,0,0,0.7);
+    color:rgba(255,255,255);
     font-size: .875rem;
 }
 
 .uk-navbar-container .uk-navbar-nav>li>a:hover {
     position: relative;
-    color:black;
+    color:white;
 }
 
 .uk-navbar-container .uk-navbar-nav >li.uk-active>a {
     position: relative;
-    color:rgba(0,0,0,1);
+    color:rgba(255,255,255,1);
 }
 
 .uk-nav .uk-nav-header {
