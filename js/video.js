@@ -1,7 +1,7 @@
 $(document).ready(function(){
       // The video_length_round variable is video specific.
       // In this example the video is 10.88 seconds long, rounded up to 11.
-      var video_length_round = 11;
+      var video_length_round = 20;
 
       var video = document.getElementById('home_video_element');
       var mp4Source = document.getElementById('mp4Source');
