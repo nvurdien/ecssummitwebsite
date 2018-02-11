@@ -1,0 +1,110 @@
+<html lang="en" class="js no-touch" style>
+
+<head>
+    <meta charset="utf-8" />
+    <!--When bookmarked on Apple Devices will use icon image-->
+    <link rel="apple-touch-icon" sizes="76x76" href="">
+    <!--icon for page-->
+    <link rel="icon" type="image/png" href="">
+    <!--Adds compatibility with edge and chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--changes scale when used on phone-->
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>ECS Leadership and Diversity Summit</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.38/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.38/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.38/js/uikit-icons.min.js"></script>
+    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/browser.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<!-- This is the off-canvas sidebar -->
+<div id="offcanvas-navbar" uk-offcanvas="mode: reveal; flip: true;">
+    <div class="uk-offcanvas-bar">
+        <ul class="uk-nav uk-nav-default">
+            <li><a href="/">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li class="uk-active"><a href="getinvolved.html">Contact Us</a></li>
+            <li><a href="subscribe.html">Get Involved</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="uk-background-cover uk-overflow-hidden uk-light uk-flex uk-background-blend-multiply uk-background-primary uk-height-large uk-flex-center uk-flex-middle" style="background-image: url('img/about.JPG'); background-position: center;">
+    <div class="uk-width-1-2@m uk-text-center">
+        <div class="uk-overlay uk-flex-center">
+            <br>
+            <h1 class="uk-heading-line">Our Team</h1>
+            <p uk-parallax="opacity: 0,1; scale: 0.5,1; viewport: 0.5;" style="transform: scale(0.5); opacity: 0; color:white;">We like feedback.</p>
+        </div>
+    </div>
+</div>
+
+<div class="uk-position-top">
+    <div class="uk-dark" uk-sticky=" animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+            <div class="uk-navbar-left uk-panel uk-margin-left">
+                <a class="uk-logo" href="/" style="color:white;">ECS Summit</a>
+            </div>
+            <div class="uk-navbar-right uk-panel">
+                <ul class="uk-navbar-nav uk-visible@s">
+                    <li><a href="about.html" class="">About Us</a></li>
+                    <li class="uk-active"><a href="contact.html" class="">Contact Us</a></li>
+                    <li><a href="getinvolved.html" class="">Get Involved</a></li>
+                </ul>
+                <div class="uk-navbar-right uk-hidden@s">
+                    <a class="uk-navbar-toggle uk-navbar-toggle-icon uk-icon" uk-navbar-toggle-icon="" uk-toggle="target: #offcanvas-navbar"><svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" ratio="1"><rect y="9" width="20" height="2"></rect><rect y="3" width="20" height="2"></rect><rect y="15" width="20" height="2"></rect></svg></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<!--Committee-->
+
+<div class="uk-section uk-section-default" role="main">
+    <!-- <h1 class="uk-heading-hero uk-text-center"></h1> -->
+
+    <h1 class="uk-heading-primary uk-heading-line uk-text-center"><span>Committee</span></h1>
+
+    <div class="uk-margin-small-left uk-margin-small-right">
+
+        <div id="committee-members">
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="uk-section uk-section-default">
+    <h1 class="uk-heading-primary uk-heading-line uk-text-center"><span>Supervisors</span></h1>
+    <div id="supervisors"></div>
+</div>
+
+
+
+<div class="uk-section uk-section-secondary uk-padding-small uk-text-center" style="color:white">
+    <BR>
+    <p><a href="https://www.twitter.com/acmcsuf" aria-label="twitter link" target="_blank" title="@acmcsuf" class="uk-icon-button uk-margin-small-right" uk-icon="icon: twitter"></a>
+        <a href="https://www.facebook.com/groups/acmcsuf" aria-label="facebook group link" target="_blank" title="/group/acmcsuf" class="uk-icon-button uk-margin-small-right" uk-icon="icon: facebook"></a>
+        <a href="https://www.instagram.com/acmcsuf" aria-label="instagram link" target="_blank" title="@acmcsuf" class="uk-icon-button uk-margin-small-right" uk-icon="icon: instagram"></a></p>
+    <p style="color:white">ECS Leadership and Diversity Summit | Spring 2018</p>
+    <BR>
+</div>
+
+<script src="js/committee.js"></script>
+<script src="js/AdvisorsList.js"></script>
+<script type="text/babel" src="js/Card.js"></script>
+
+</html>
